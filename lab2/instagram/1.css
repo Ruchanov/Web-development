@@ -215,6 +215,7 @@
     position: absolute;
     top: 670px;
     left: 50px;
+    padding-top: -200px;
 }
 .footer1, .footer2 {
     display: flex;

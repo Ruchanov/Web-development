@@ -3,4 +3,4 @@ function groupById(array) {
         obj[value.id] = value;
         return obj;
     }, {})
-}
+}\

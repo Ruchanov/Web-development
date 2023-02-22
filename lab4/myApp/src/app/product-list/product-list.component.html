@@ -1,32 +1,26 @@
-<h2>Products</h2>
-
-
-<div *ngFor="let product of products">
-  <hr>
-  <img src="{{product.image}}">
-  <h3>
-    <a
-      [title]="product.name + ' details'"
-      [routerLink]="['/products', product.id]">
-      {{ product.name }}
-    </a>
-  </h3>
-  <p *ngIf="product.description">
-    Description:{{ product.description }}
-  </p>
-  <div class = "buttons-container">
-    <button type="button" (click)="shareOnTelegram('owoyii',product.address)">
-      Share
-    </button>
-    <app-product-alerts
-      [product]="product"
-      (notify)="onNotify()">
-    </app-product-alerts>
-    <button type = "button" style = "background-color:red"><a href="{{product.address}}}" style = "color: rgb(255,255,255)">Kaspi</a></button>
+<div class="product-wrapper">
+  <div class="product-item" *ngFor="let product of products">
+    <img src="{{product.image}}">
+    <h3>
+      <a
+        [title]="product.name + ' details'"
+        [routerLink]="['/products', product.id]">
+        {{ product.name }}
+      </a>
+    </h3>
+    <p *ngIf="product.description">
+      Description:{{ product.description }}
+    </p>
+    <div class="buttons-container">
+      <button type="button" (click)="shareOnTelegram('Ruchanov',product.address)">
+        Share
+      </button>
+      <app-product-alerts
+        [product]="product"
+        (notify)="onNotify()">
+      </app-product-alerts>
+      <button type="button" style="background-color:red"><a href="{{product.address}}}" style="color: rgb(255,255,255)">Kaspi</a></button>
+      <img class = "zvezda" src="{{product.rating}}">
+    </div>
   </div>
 </div>
-<!--
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
--->

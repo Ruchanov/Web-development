@@ -1,9 +1,26 @@
+/*@import '~bootstrap/dist/css/bootstrap.min.css';*/
 img{
   width: 210px;
   height: 150px;
 }
 p{
-  margin-right: 80%;
+  margin-right: 60%;
+}
+.product-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-item {
+  width: 48%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.zvezda{
+  overflow: hidden;
+  margin:-41px -156px -40px -30px;
 }
 /*.buttons-container{*/
 /*  display: flex;*/

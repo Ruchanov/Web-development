@@ -23,7 +23,7 @@ export const products = [
       '      входы: AV, ,HDMI, ,USB, ,антенный, ,Bluetooth',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h25/ha0/48926247878686/yasin-led-32e7000-cernyj-103411518-1.jpg',
     address: 'https://kaspi.kz/shop/p/yasin-led-32e7000-81-sm-chernyi-103411518/?c=750000000#!/item',
-    rating: 'https://resources.cdn-kaspi.kz/shop/front/sa/stable/desktop/images/stars.png'
+    rating: 'http://danleicht.com/wp-content/uploads/2016/06/Five-Stars.jpg'
   },
   {
     id: 2,
@@ -38,7 +38,7 @@ export const products = [
       'входы: AV, ,компонентный, ,HDMI, ,Ethernet (RJ-45), ,USB',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/he5/he4/49320430370846/lg-43lm5772pla-108-sm-cernyj-101293496-1-Container.jpg',
     address: 'https://kaspi.kz/shop/p/lg-43lm5772pla-109-sm-chernyi-101293496/?c=750000000#!/item',
-    rating: 'https://resources.cdn-kaspi.kz/shop/front/sa/stable/desktop/images/stars.png'
+    rating: 'http://danleicht.com/wp-content/uploads/2016/06/Five-Stars.jpg'
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ export const products = [
       'входы: композитный, ,HDMI, ,USB, ,Bluetooth',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/haf/hd2/49320434008094/xiaomi-l32m6-6arg-81-sm-cernyj-103039169-1.jpg',
     address: 'https://kaspi.kz/shop/p/xiaomi-tv-p1-32-l32m6-6arg-81-sm-chernyi-103039169/?c=750000000#!/item',
-    rating: 'https://resources.cdn-kaspi.kz/shop/front/sa/stable/desktop/images/stars.png'
+    rating: 'http://danleicht.com/wp-content/uploads/2016/06/Five-Stars.jpg'
   },
   {
     id: 3,
@@ -68,7 +68,7 @@ export const products = [
       'входы: аудио, ,оптический, ,VGA',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h3c/hfa/66314652581918/dauscher-ld55au7100-chernyi-107598351-1.jpg',
     address: 'https://kaspi.kz/shop/p/dauscher-ld55au7100-140-sm-chernyi-107598351/?c=750000000#!/item',
-    rating: 'https://resources.cdn-kaspi.kz/shop/front/sa/stable/desktop/images/stars.png'
+    rating: 'http://danleicht.com/wp-content/uploads/2016/06/Five-Stars.jpg'
   },
   {
     id: 4,
@@ -83,7 +83,7 @@ export const products = [
       'входы: AV, ,компонентный, ,Ethernet (RJ-45), ,USB',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hdf/h18/49319748468766/samsung-ue43t5300au-chernyi-100182013-1.jpg',
     address: 'https://kaspi.kz/shop/p/samsung-ue43t5300auxce-109-sm-chernyi-100182013/?c=750000000#!/item',
-    rating: 'https://resources.cdn-kaspi.kz/shop/front/sa/stable/desktop/images/stars.png'
+    rating: 'http://danleicht.com/wp-content/uploads/2016/06/Five-Stars.jpg'
   },
   {
     id: 5,
@@ -98,7 +98,7 @@ export const products = [
       'входы: оптический, ,AV, ,компонентный, ,HDMI, ,Ethernet (RJ-45), ,USB, ,RS-232, ,MHL',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hd2/h3f/49244137586718/yasin-40g7-cernyj-104045834-1.jpg',
     address: 'https://kaspi.kz/shop/p/yasin-40g7-102-sm-chernyi-104045834/?c=750000000#!/item',
-    rating: 'https://resources.cdn-kaspi.kz/shop/front/sa/stable/desktop/images/stars.png'
+    rating: 'http://danleicht.com/wp-content/uploads/2016/06/Five-Stars.jpg'
   },
   {
     id: 6,
@@ -112,7 +112,7 @@ export const products = [
       'общий объем накопителей: 256 ГБ',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h65/h0f/33125684084766/apple-macbook-air-2020-13-3-mgn63-seryj-100797845-1-Container.jpg',
     address: 'https://kaspi.kz/shop/p/apple-macbook-air-13-mgn63-seryi-100797845/?c=750000000#!/item',
-    rating: 'https://resources.cdn-kaspi.kz/shop/front/sa/stable/desktop/images/stars.png'
+    rating: 'http://danleicht.com/wp-content/uploads/2016/06/Five-Stars.jpg'
   },
   {
     id: 7,
@@ -126,7 +126,7 @@ export const products = [
       'общий объем накопителей: 512 ГБ',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h2e/hc4/67236399185950/acer-nitro-5-an515-57-nh-qeker-004-chernyi-108194028-1.jpg',
     address: 'https://kaspi.kz/shop/p/acer-nitro-5-an515-57-nh-qeker-004-chernyi-108194028/?c=750000000#!/item',
-    rating: 'https://resources.cdn-kaspi.kz/shop/front/sa/stable/desktop/images/stars.png'
+    rating: 'http://danleicht.com/wp-content/uploads/2016/06/Five-Stars.jpg'
   },
   {
     id: 8,
@@ -140,7 +140,7 @@ export const products = [
       'общий объем накопителей: 512 ГБ',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h6b/h33/62100002701342/asus-tuf-gaming-a15-fa506ihrb-hn084-90nr07g7-m008c0-cernyj-106255184-1.jpg',
     address: 'https://kaspi.kz/shop/p/asus-tuf-gaming-a15-fa506ihrb-hn084-90nr07g7-m008c0-chernyi-106255184/?c=750000000#!/item',
-    rating: 'https://resources.cdn-kaspi.kz/shop/front/sa/stable/desktop/images/stars.png'
+    rating: 'http://danleicht.com/wp-content/uploads/2016/06/Five-Stars.jpg\''
   },
   {
     id: 9,
@@ -153,7 +153,7 @@ export const products = [
       'общий объем накопителей: 256 ГБ',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hc0/h3d/52679174357022/apple-macbook-air-13-mly33-chernyi-105933768-1.jpg',
     address: 'https://kaspi.kz/shop/p/apple-macbook-air-13-mly33-chernyi-105933768/?c=750000000#!/item',
-    rating: 'https://resources.cdn-kaspi.kz/shop/front/sa/stable/desktop/images/stars.png'
+    rating: 'http://danleicht.com/wp-content/uploads/2016/06/Five-Stars.jpg'
   },
   {
     id: 10,
@@ -167,7 +167,7 @@ export const products = [
       'общий объем накопителей: 512 ГБ',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h7b/h65/66626494398494/acer-nitro-5-an515-45-nh-qb9er-004-chernyi-107535784-1.jpg',
     address: 'https://kaspi.kz/shop/p/acer-nitro-5-an515-45-nh-qb9er-004-chernyi-107535784/?c=750000000#!/item',
-    rating: 'https://resources.cdn-kaspi.kz/shop/front/sa/stable/desktop/images/stars.png'
+    rating: 'http://danleicht.com/wp-content/uploads/2016/06/Five-Stars.jpg'
   }
 
 ];

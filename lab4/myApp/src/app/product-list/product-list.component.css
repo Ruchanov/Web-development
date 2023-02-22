@@ -10,6 +10,7 @@ p{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .product-item {
@@ -17,10 +18,19 @@ p{
   margin-bottom: 20px;
   border: 1px solid #ccc;
   padding: 10px;
+  overflow: hidden;
 }
 .zvezda{
-  overflow: hidden;
-  margin:-41px -156px -40px -30px;
+  /*overflow: hidden;*/
+  width: 100px;
+  height: 40px;
+  position: relative;
+  left: 380px;
+  top: 10px;
+}
+.kaspi{
+  position: relative;
+  top: -15px;
 }
 /*.buttons-container{*/
 /*  display: flex;*/

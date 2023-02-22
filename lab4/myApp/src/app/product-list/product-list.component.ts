@@ -17,6 +17,10 @@ export class ProductListComponent {
   onNotify() {
     window.alert('You will be notified when the product goes on sale');
   }
+  shareOnTelegram(sellerUsername: string, messageText: string) {
+    const telegramUrl = `https://t.me/${sellerUsername}?text=${encodeURIComponent("che taaaam")}`;
+    window.open(telegramUrl, '_blank');
+  }
 }
 
 

@@ -2,24 +2,28 @@
 
 
 <div *ngFor="let product of products">
+  <hr>
+  <img src="{{product.image}}">
   <h3>
     <a
       [title]="product.name + ' details'"
       [routerLink]="['/products', product.id]">
       {{ product.name }}
     </a>
-    <img src="{{product.image}}">
   </h3>
   <p *ngIf="product.description">
-    Description: {{ product.description }}
+    Description:{{ product.description }}
   </p>
-  <button type="button" (click)="share()">
-    Share
-  </button>
-  <app-product-alerts
-    [product]="product"
-    (notify)="onNotify()">
-  </app-product-alerts>
+  <div class = "buttons-container">
+    <button type="button" (click)="shareOnTelegram('owoyii',product.address)">
+      Share
+    </button>
+    <app-product-alerts
+      [product]="product"
+      (notify)="onNotify()">
+    </app-product-alerts>
+    <button type = "button" style = "background-color:red"><a href="{{product.address}}}" style = "color: rgb(255,255,255)">Kaspi</a></button>
+  </div>
 </div>
 <!--
 Copyright Google LLC. All Rights Reserved.

@@ -3,6 +3,7 @@
 
   <div class = "product-item" *ngFor="let product of category.products">
     <img src="{{product.image}}">
+    <button class = "remove" (click)="removeProduct(product.id)">Remove</button>
     <h3>
       <a
         [title]="product.name + ' details'"
@@ -21,8 +22,12 @@
         [product]="product"
         (notify)="onNotify()">
       </app-product-alerts>
-      <button class = "kaspi" type="button" style="background-color:red"><a href="{{product.address}}}" style="color: rgb(255,255,255)">Kaspi</a></button>
-      <img class = "zvezda" src="{{product.rating}}">
+      <button class = "kaspi" type="button" style="background-color:red"><a href="{{product.address}}}" style="color: rgb(255,255,255);">Kaspi</a></button><br>
+      <button class = "like" type="button" (click)="addLike(product)">
+        Likes: {{product.like}}
+      </button>
+<!--      <img class = "zvezda" src="{{product.rating}}">-->
     </div>
+    <img class = "zvezda" src="{{product.rating}}">
   </div>
 </div>

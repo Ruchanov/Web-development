@@ -11,13 +11,8 @@ import {ActivatedRoute} from "@angular/router";
 })
 export class ProductListComponent {
   // products = [...products];
-  category :  { id: number; name: string; products: {id: number, name: string, price: number, description: string, image: string, address: string, rating: string; }[] } | undefined
+  category :  { id: number; name: string; products: {id: number, name: string, price: number, description: string, image: string, address: string, rating: string; like: number}[] } | undefined
   constructor(private route : ActivatedRoute) {
-  }
-
-  removeProduct(ind : number){
-    // @ts-ignore
-    this.category.items = this.category.items.filter((x) => x.id !== ind);
   }
 
   ngOnInit() {
@@ -26,13 +21,23 @@ export class ProductListComponent {
 
     this.category = categories.find(category => category.id === categoryIdFromRoute);
   }
-
+  removeProduct(ind: number) {
+    if (this.category) {
+      this.category.products = this.category.products.filter((x) => x.id !== ind);
+    }
+  }
   share() {
     window.alert('The product has been shared!');
   }
-
+  addLike(product: any) {
+    product.like += 1;
+  }
   onNotify() {
     window.alert('You will be notified when the product goes on sale');
+  }
+  shareOnTelegram(sellerUsername: string, messageText: string) {
+    const telegramUrl = `https://t.me/${sellerUsername}?text=${encodeURIComponent("che taaaam")}`;
+    window.open(telegramUrl, '_blank');
   }
 }
 

@@ -25,14 +25,23 @@ p{
   width: 100px;
   height: 40px;
   position: relative;
-  left: 380px;
+  left: 440px;
   top: 10px;
 }
 .kaspi{
-  position: relative;
-  top: -15px;
+  /*position: relative;*/
+  /*top: -10px;*/
 }
 /*.buttons-container{*/
 /*  display: flex;*/
 /*  justify-content: space-between;*/
 /*}*/
+.remove{
+  position: relative;
+  left: 250px;
+  top: -130px;
+}
+.like{
+  position: relative;
+  top: 15px;
+}

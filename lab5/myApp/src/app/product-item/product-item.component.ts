@@ -31,13 +31,9 @@ export class ProductItemComponent {
       address: string;
       // @ts-ignore
       rating: string;
-    }
-  }
+      // @ts-ignore
+      like: number
 
-  ClickLike(){
-    this.like++;
-  }
-  removeProduct(){
-    this.remove.emit(this.product.id)
+    }
   }
 }

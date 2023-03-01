@@ -1,0 +1,8 @@
+<p>Categories</p>
+<div id="menu">
+  <button class="category" *ngFor="let category of categories" [routerLink]="['/categories', category.id]">
+    <div class = "txt">
+      {{category.name}}
+    </div>
+  </button>
+</div>

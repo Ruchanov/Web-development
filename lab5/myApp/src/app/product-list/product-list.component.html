@@ -1,5 +1,7 @@
-<div class="product-wrapper">
-  <div class="product-item" *ngFor="let product of products">
+<div class = "product-wrapper"*ngIf="category">
+<!--  <h1 class="title">{{category.name}}</h1><br>-->
+
+  <div class = "product-item" *ngFor="let product of category.products">
     <img src="{{product.image}}">
     <h3>
       <a

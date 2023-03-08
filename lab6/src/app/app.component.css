@@ -1,0 +1,17 @@
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*height: 500px;*/
+  font-size: 40px;
+  background-color: #CCE5FF;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  /*flex-direction: row;*/
+  list-style: none;
+}
+li{
+  margin-right: 40px;
+}

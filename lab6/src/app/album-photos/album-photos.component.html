@@ -1,0 +1,10 @@
+<ul *ngIf="loaded">
+  <button (click)="returnBack()">Return back</button>
+
+  <li *ngFor="let photo of photos">
+    <img [src]="photo.thumbnailUrl" [alt]="photo.title">
+    <p>{{ photo.title }}</p>
+  </li>
+</ul>
+
+<p *ngIf="!loaded">Loading...</p>

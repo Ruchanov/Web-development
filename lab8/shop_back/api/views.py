@@ -9,7 +9,7 @@ def product_list(request):
     return JsonResponse(data)
 
 
-def product_detail(request, pk):
+def product_detail(request, id):
     try:
         product = Product.objects.get(id=id)
     except Product.DoesNotExist:

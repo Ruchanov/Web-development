@@ -9,10 +9,9 @@ from .models import Company, Vacancy
 # Create your views here.
 
 def company_list(request):
-    if request.method == 'GET':
-        companies = Company.objects.all()
-        companies_json = [p.to_json() for p in companies]
-        return JsonResponse(companies_json, safe=False)
+    companies = Company.objects.all()
+    companies_json = [p.to_json() for p in companies]
+    return JsonResponse(companies_json, safe = False)
 
 
 def get_company_by_id(request, id):
@@ -20,18 +19,20 @@ def get_company_by_id(request, id):
         company = Company.objects.get(id=id)
     except Company.DoesNotExist:
         return JsonResponse({'error': 'Company not found'}, status=404)
-    return JsonResponse(company.to_json())
+    return JsonResponse(company.to_json(), safe=False)
 
 
 def get_vacancies_by_company_id(request, id):
     company_name = Company.objects.get(id=id)
     vacancies = Vacancy.objects.filter(company=company_name)
-    return JsonResponse(vacancies.to_json())
+    vacancies_json = [p.to_json() for p in vacancies]
+    return JsonResponse(vacancies_json, safe=False)
 
 
 def vacancies_list(request):
     vacancies = Vacancy.objects.all()
-    return JsonResponse(vacancies.to_json())
+    vacancies_json = [p.to_json() for p in vacancies]
+    return JsonResponse(vacancies_json,safe=False)
 
 
 def get_vacancy_by_id(request, id):
@@ -39,10 +40,11 @@ def get_vacancy_by_id(request, id):
         vacancy = Vacancy.objects.get(id=id)
     except Vacancy.DoesNotExist:
         return JsonResponse({'error': 'Vacancy not found'}, status=404)
-    return JsonResponse(vacancy.to_json())
+    return JsonResponse(vacancy.to_json(),safe=False)
 
 
 def top_vacancies(request):
     vacancies = Vacancy.objects.order_by('-salary')[:10]
-    return JsonResponse(vacancies.to_json())
+    vacancies_json = [p.to_json() for p in vacancies]
+    return JsonResponse(vacancies_json, safe=False)
 

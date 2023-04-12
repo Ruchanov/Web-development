@@ -14,13 +14,13 @@ export const products = [
     id: 1,
     name: 'Телевизор Yasin LED-32E7000 81 см черный',
     price: 60000,
-    description: 'тип: LED-телевизор\n' +
-      '      диагональ: 32 дюйм\n' +
-      '      разрешение: 1366x768\n' +
-      '      поддержка HD: 720p HD\n' +
-      '      технология Smart TV: Нет\n' +
-      '      wi-Fi: Да\n' +
-      '      входы: AV, ,HDMI, ,USB, ,антенный, ,Bluetooth',
+    description: 'тип: LED-телевизор ' +
+      'диагональ: 32 дюйм ' +
+      'разрешение: 1366x768 ' +
+      'поддержка HD: 720p HD ' +
+      'технология Smart TV: Нет' +
+      'wi-Fi: Да' +
+      'входы: AV,HDMI,USB,антенный,Bluetooth',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h25/ha0/48926247878686/yasin-led-32e7000-cernyj-103411518-1.jpg',
     address: 'https://kaspi.kz/shop/p/yasin-led-32e7000-81-sm-chernyi-103411518/?c=750000000#!/item',
     rating: 'http://danleicht.com/wp-content/uploads/2016/06/Five-Stars.jpg'

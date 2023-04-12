@@ -9,7 +9,7 @@
       </a>
     </h3>
     <p *ngIf="product.description">
-      Description:{{ product.description }}
+      Description:{{ product.description.replace('\n','\n')}}
     </p>
     <div class="buttons-container">
       <button type="button" (click)="shareOnTelegram('Ruchanov',product.address)">

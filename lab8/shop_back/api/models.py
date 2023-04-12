@@ -12,6 +12,7 @@ class Category(models.Model):
         verbose_name = 'Category'
         verbose_name_plural = 'Categories'
 
+
 class Product(models.Model):
     name = models.CharField(max_length=255)
     price = models.FloatField()

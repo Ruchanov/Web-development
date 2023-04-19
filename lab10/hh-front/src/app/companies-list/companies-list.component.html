@@ -1,6 +1,6 @@
 <h1>Companies:</h1>
 <ul>
   <li *ngFor="let company of companies">
-    <a href = ''>{{company.name}}</a>
+    <a [routerLink]="['/companies', company.id]">{{company.name}}</a>
   </li>
 </ul>

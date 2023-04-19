@@ -15,6 +15,5 @@ export class CompaniesListComponent {
     this.companyService.getCompanies().subscribe((companies) => {
       this.companies = companies;
     });
-    console.log(this.companies)
   }
 }

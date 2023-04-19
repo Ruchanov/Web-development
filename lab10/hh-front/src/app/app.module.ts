@@ -6,10 +6,15 @@ import { CompaniesListComponent } from './companies-list/companies-list.componen
 import {RouterOutlet} from "@angular/router";
 import {AppRoutingModule} from "./app-routing.module";
 import {HttpClientModule} from "@angular/common/http";
+// import { CompanyDetailComponent } from './company/company-detail.component';
+import { CompanyComponent } from './company/company.component';
+import { VacancyComponent } from './vacancy/vacancy.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CompaniesListComponent
+    CompaniesListComponent,
+    CompanyComponent,
+    VacancyComponent
   ],
   imports: [
     BrowserModule,

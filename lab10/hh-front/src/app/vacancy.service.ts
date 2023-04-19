@@ -11,12 +11,12 @@ export class VacancyService {
   constructor(private client: HttpClient) { }
 
   getVacancies(): Observable<Vacancy[]>{
-    return this.client.get<Vacancy[]>(`${this.BASE_URL}/vacancies/`)
+    return this.client.get<Vacancy[]>(`${this.BASE_URL}/api/vacancies/`)
   }
   getVacancy(id: number): Observable<Vacancy>{
-    return this.client.get<Vacancy>(`${this.BASE_URL}/vacancies/${id}`)
+    return this.client.get<Vacancy>(`${this.BASE_URL}/api/vacancies/${id}/`)
   }
   getTopVacancies(): Observable<Vacancy[]>{
-    return this.client.get<Vacancy[]>(`${this.BASE_URL}/vacancies/top_ten/`)
+    return this.client.get<Vacancy[]>(`${this.BASE_URL}/api/vacancies/top_ten/`)
   }
 }

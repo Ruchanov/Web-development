@@ -20,6 +20,7 @@ export class VacancyComponent {
       if (strid) {
         let id = +strid;
         this.service.getVacancy(id).subscribe((value) => {
+          console.log(value)
           this.vacancy = value;
         })
       }

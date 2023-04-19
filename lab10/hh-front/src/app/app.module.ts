@@ -9,12 +9,18 @@ import {HttpClientModule} from "@angular/common/http";
 // import { CompanyDetailComponent } from './company/company-detail.component';
 import { CompanyComponent } from './company/company.component';
 import { VacancyComponent } from './vacancy/vacancy.component';
+import { HomeComponent } from './home/home.component';
+import { VacanciesListComponent } from './vacancies-list/vacancies-list.component';
+import { Top10Component } from './top10/top10.component';
 @NgModule({
   declarations: [
     AppComponent,
     CompaniesListComponent,
     CompanyComponent,
-    VacancyComponent
+    VacancyComponent,
+    HomeComponent,
+    VacanciesListComponent,
+    Top10Component
   ],
   imports: [
     BrowserModule,

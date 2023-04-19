@@ -8,8 +8,6 @@ import {Company} from "../models";
 })
 export class CompaniesListComponent {
   companies: Company[] = [];
-  // newCategory: string = '';
-
   constructor(private companyService: CompanyService) {
   }
 
@@ -17,5 +15,6 @@ export class CompaniesListComponent {
     this.companyService.getCompanies().subscribe((companies) => {
       this.companies = companies;
     });
+    console.log(this.companies)
   }
 }

@@ -18,4 +18,5 @@ export class CompanyService {
   getCompanyVacancies(id: number): Observable<Vacancy[]> {
     return this.client.get<Vacancy[]>(`${this.BASE_URL}/api/companies/${id}/vacancies/`)
   }
+
 }

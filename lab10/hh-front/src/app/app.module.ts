@@ -12,6 +12,7 @@ import { VacancyComponent } from './vacancy/vacancy.component';
 import { HomeComponent } from './home/home.component';
 import { VacanciesListComponent } from './vacancies-list/vacancies-list.component';
 import { Top10Component } from './top10/top10.component';
+import {FormsModule} from "@angular/forms";
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,12 +23,13 @@ import { Top10Component } from './top10/top10.component';
     VacanciesListComponent,
     Top10Component
   ],
-  imports: [
-    BrowserModule,
-    RouterOutlet,
-    AppRoutingModule,
-    HttpClientModule
-  ],
+    imports: [
+        BrowserModule,
+        RouterOutlet,
+        AppRoutingModule,
+        HttpClientModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
